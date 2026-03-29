@@ -1,0 +1,29 @@
+#outerdiv {
+  height: 700px;
+  width: 700px;
+  border: 3px solid #000;
+  display: grid;
+  background-color: antiquewhite;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  margin: 0 auto;
+}
+
+.innerdiv{
+     width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color:burlywood;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+ 
+}
+
+#ayush{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

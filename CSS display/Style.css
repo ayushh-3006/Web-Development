@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.a {
+  width: 200px;
+  height: 200px;
+}
+
+#mydiv,
+#mydiv2,
+#mydiv3 {
+  background-color: gray;
+  border: 1px solid #000;
+}
+
+#mydiv2 {
+  display: none;
+}
+
+#mydiv3{
+    margin: 5px;
+}
+
+ .b{
+  width: 200px;
+  height: 200px;
+}
+
+#myspan,
+#myspan2,
+#myspan3 {
+  background-color: rgb(233, 119, 119);
+  border: 1px solid #000;
+}
+
+#myspan2{
+    display: inline-block;
+}
