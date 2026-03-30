@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#outerdiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  grid-template-columns: 400px 400px 400px;
+  background-color: rgb(59, 88, 194);
+}
+
+#card1 {
+  width: 400px
+  height: 400px;
+  display: grid;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: azure;
+}
+
+#card2 {
+  width: 400px;
+  height: 550px;
+  display: grid;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: azure;
+}
+
+.input-row {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  display: flex;
+}
+
+.row,.row-left {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.input-row input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  width: 100%;
+  
+}
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #4472f1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+u {
+  text-decoration-color: #4472f1;
+}
