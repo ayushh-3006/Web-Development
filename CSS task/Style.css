@@ -1,0 +1,46 @@
+#outerBox {
+  width: 600px;
+  height: 600px;
+  border: 3px solid #000;
+  display: flex;
+  background-color: aquamarine;
+}
+
+
+.Ayush {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: inline-block;
+  
+  /* display: inline-block; */
+  background-color: antiquewhite;
+  /* margin: 46px; */
+  justify-content:right ;
+  align-items:end;
+  
+}
+
+.Ayush1{
+     width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: antiquewhite;
+   /* display: inline-block; */
+   /* margin: 46px; */
+  
+   justify-content:right;
+   align-items:center;
+}
+
+.Ayush2{
+     width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: antiquewhite;
+   /* display: inline-block; */
+   /* margin: 46px; */
+   justify-content:right;
+   align-items: end;
+}
+
