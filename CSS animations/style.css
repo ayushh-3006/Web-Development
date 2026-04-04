@@ -25,8 +25,8 @@
 }
 
 #div2:hover{
-    /* transform: rotatez(360deg); */
-    /* transform: scale(1.5,1.2); */
-    /* transform: skew(40deg,40deg); */
+    transform: rotatez(360deg);
+    transform: scale(1.5,1.2);
+    transform: skew(40deg,40deg);
     transform: translatey(50px);
 }
