@@ -9,6 +9,18 @@ console.log(a===b);
 console.log(typeof a);
 console.log(typeof b);
 
+let i=1;
+
+while(i<20)
+{
+    if(i%2==0)
+    {
+        console.log(i);
+        
+    }
+    i++;
+}
+
 
 
 
