@@ -11,6 +11,8 @@ console.log(typeof b);
 
 let i=1;
 
+
+// even numbers
 while(i<20)
 {
     if(i%2==0)
@@ -20,6 +22,14 @@ while(i<20)
     }
     i++;
 }
+
+console.log(1+4); // addition
+console.log('1'+'4'); // concatenation
+
+
+
+
+
 
 
 
