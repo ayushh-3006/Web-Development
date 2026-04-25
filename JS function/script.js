@@ -45,3 +45,24 @@ function numbers(){
     if(15>12) return true;
     else return false;
 }
+
+
+
+// object method
+
+const obj = {
+  myFunction(x, y) {
+    return x * y;
+  },
+};
+
+let x = myFunction(4, 3);
+
+function myFunction(a, b) {
+  return a * b;
+}
+
+const sum = add(2, 3); 
+
+function add(a, b) 
+{return a + b;}
