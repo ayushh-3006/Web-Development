@@ -66,3 +66,23 @@ const sum = add(2, 3);
 
 function add(a, b) 
 {return a + b;}
+
+
+// object method
+
+const obj1= {
+  myFunction(x, y) {
+    return x * y;
+  },
+};
+
+let x1 = myFunction(10, 20);
+
+function myFunction(a, b) {
+  return a * b;
+}
+
+const sum1 = add(40, 50); 
+
+function add(a, b) 
+{return a + b;}
