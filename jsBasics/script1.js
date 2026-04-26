@@ -205,13 +205,23 @@ for(let i=1; i<21; i++){
 
 // question3 use continue,break
 
-let count = 0;
+let count1 = 0;
 for(let i=1; i<101; i++){
     if(i%2===1){
-        count++;
+        count1++;
         console.log(i);
     }
 
-    if(count===5)
+    if(count1===5)
         break;
+}
+
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let len = cars.length;
+
+let i1 = 2;
+
+let text = "";
+for (; i1 < len; i1++) {
+  text += cars[i1] + "<br>";
 }
