@@ -127,6 +127,7 @@ let arr1 = [2, 3, 6, 5, 14, 28, 6, 120, 71, 92];
 
 console.log(arr1.filter((val) => val > 20));
 console.log(arr1.find((val) => val > 20));
+console.log(arr1.find((val) => val > 40));
 console.log(arr1.slice(0, 5));
 
 let ab = "This is web-development class";
