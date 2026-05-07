@@ -1,0 +1,30 @@
+.divShow{
+    display: block;
+}
+.divHide{
+    display: none;
+}
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+/* Alert Box */
+.alert-box {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  animation: slideIn 0.5s ease forwards;
+  display: none;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translate(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate( 0); 
+    opacity: 1;
+  }
+}
