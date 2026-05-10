@@ -6,7 +6,7 @@ const paragraph = document.getElementById('para');
 // const inputBg = document.getElementById('input-bg');
 // const inputHeading = document.getElementById('input-heading');
 // const inputPara = document.getElementById('input-para');
-const btnReset = document.getElementById('btn-reset');
+//const btnReset = document.getElementById('btn-reset');
 
 
 function changeBg() {
@@ -29,4 +29,4 @@ function resetPage() {
 document.getElementById("input-bg").addEventListener("input", changeBg);
 document.getElementById('input-heading').addEventListener("input", changeHeadingColor);
 document.getElementById('input-para').addEventListener("input", changeParaColor);
-btnReset.addEventListener("click", resetPage);
+document.getElementById('btn-reset').addEventListener("click", resetPage);
