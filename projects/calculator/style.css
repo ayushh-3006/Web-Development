@@ -1,0 +1,157 @@
+/* body {
+  background-image: url(https://learn.ricr.in/pluginfile.php/6753/mod_page/content/8/CalculatorBGImage.png);
+  height: 100vh;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  border: 2px solid #000;
+  margin: 50px auto;
+  border-radius: 15px 15px 0px 0px;
+  padding: 20px;
+  background-color: rgb(224, 238, 238);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputbox{
+    width: 280px;
+    height: 100px;
+}
+input {
+  width: 400px;
+  height: 80px;
+  border-radius: 80px;
+  margin: 5px;
+  font-size: xx-large;
+  background-color: #d1e7dd;
+}
+
+.allbuttons {
+  display: grid;
+  border: 5px solid rgb(254, 240, 240);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  grid-template-columns: 100px 100px 100px auto;
+  grid-template-rows: 100px 100px 100px auto;
+  gap: 10px;
+  background-color: #f8d7da;
+}
+
+.btn {
+  font-size: xx-large;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: azure;
+}
+
+
+button:active{
+    background: blue;
+}
+
+
+#cancel:active{
+    background:red;
+} */
+/* 
+body {
+    background-image: url('https://learn.ricr.in/pluginfile.php/6753/mod_page/content/8/CalculatorBGImage.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.calculatorcard {
+    width: 380px;
+    background-color: #e2ebf0; 
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.displaysection {
+    background-color: #d8e6d1; 
+    height: 120px;
+    border-radius: 20px 20px 5px 5px;
+    margin-bottom: 10px;
+    display: flex;
+  
+    padding: 20px;
+}
+
+#inputbox {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 2.5rem;
+    text-align: right;
+    outline: none;
+}
+
+.buttons-grid {
+    background-color: #f8d7da; 
+    padding: 20px;
+    border-radius: 5px 5px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    height: 65px;
+    width: 65px;
+    border-radius: 50% ;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.btn-light {
+    background-color: #ffffff;
+}
+
+.btn-orange {
+    background-color: #ffb703;
+    color: white;
+}
+
+.btn-equal {
+    background-color: #1a936f;
+    color: white;
+    width: 100%;
+   
+   
+    border-radius: 30px ;
+}
+ */
+
+ /* ========================== style.css ========================== */
+
+.calculatorContainer {
+
+    width: 480px;
+}
+
+.calcBtn {
+
+    height: 70px;
+
+    font-size: 26px;
+
+    font-weight: bold;
+}
