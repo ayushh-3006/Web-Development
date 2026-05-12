@@ -51,7 +51,7 @@ FD.forEach((element) => {
   console.log(element);
 });
 
-FD.map((element,idx) => {
+FD.map((element, idx) => {
   console.log(element);
 });
 
@@ -68,8 +68,8 @@ let data = [
       eng: 78,
       hin: 82,
       math: 90,
-      science: 85
-    }
+      science: 85,
+    },
   },
   {
     name: "Neha Verma",
@@ -78,8 +78,8 @@ let data = [
       eng: 88,
       hin: 76,
       math: 92,
-      science: 89
-    }
+      science: 89,
+    },
   },
   {
     name: "Rahul Singh",
@@ -88,9 +88,9 @@ let data = [
       eng: 70,
       hin: 80,
       math: 75,
-      science: 78
-    }
-  }
+      science: 78,
+    },
+  },
 ];
 
 console.log(data[0].marks.eng);
@@ -137,4 +137,12 @@ console.log(ab);
 console.log(ab.split(" "));
 console.log(ab.split("-"));
 
+let str = "This is a string";
 
+console.log(str.charAt(5));
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let a = 3.1497366473892;
+
+console.log(a.toFixed(4));
