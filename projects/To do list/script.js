@@ -40,5 +40,8 @@ function addNewTask() {
 
   document.getElementById("taskList").appendChild(LI);
 
+
+  
+
   document.getElementById("newTask").value = "";
 }
