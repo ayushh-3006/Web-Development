@@ -68,7 +68,7 @@
 
 // third number
 
-const API_KEY = "e40c662cc7c85cc3fb706ef619a27090";
+const API_KEY = ""; //e40c662cc7c85cc3fb706ef619a27090
 
 async function getWeather() {
   const cityname = document.getElementById("city").value.trim();
