@@ -1,0 +1,132 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+
+}
+
+.conainer{
+    background-color: burlywood;
+}
+
+body {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:
+        linear-gradient(135deg,
+            #4ffea9,
+            #4c779a);
+
+    padding: 20px;
+
+}
+
+.converter-box {
+
+    background: transparent;
+
+    background-color: aliceblue;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+}
+
+.flag-img {
+
+    transition: 0.3s;
+
+}
+
+.flag-img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.swap-btn {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    font-size: 24px;
+    color: rgb(189, 145, 23);
+
+}
+
+#resultBox {
+
+    background: transparent;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+}
+
+#newAmount {
+
+    font-size: 30px;
+
+    color: rgb(90, 157, 45);
+
+    font-weight: bold;
+
+}
+
+#exchangeRate {
+
+    color: gray;
+
+}
+
+
+    body{
+      background-image: url(image.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+    }
+
+ 
+
+button {
+
+    transition: 0.3s;
+
+}
+
+button:hover {
+
+    transform: scale(1.02);
+
+}
+
+@media(max-width: 600px) {
+
+    .converter-box {
+
+        padding: 20px;
+
+    }
+
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "Country": "India",
+    "Currency_Code": "inr",
+    "Country_Code": "IN"
+  },
+  {
+    "Country": "United States",
+    "Currency_Code": "usd",
+    "Country_Code": "US"
+  },
+  {
+    "Country": "United Kingdom",
+    "Currency_Code": "gbp",
+    "Country_Code": "GB"
+  },
+  {
+    "Country": "Japan",
+    "Currency_Code": "jpy",
+    "Country_Code": "JP"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Currency_Code": "aed",
+    "Country_Code": "AE"
+  },
+  {
+    "Country": "Canada",
+    "Currency_Code": "cad",
+    "Country_Code": "CA"
+  },
+  {
+    "Country": "Australia",
+    "Currency_Code": "aud",
+    "Country_Code": "AU"
+  },
+  {
+    "Country": "Germany",
+    "Currency_Code": "eur",
+    "Country_Code": "DE"
+  },
+  {
+    "Country": "France",
+    "Currency_Code": "eur",
+    "Country_Code": "FR"
+  },
+  {
+    "Country": "Italy",
+    "Currency_Code": "eur",
+    "Country_Code": "IT"
+  },
+  {
+    "Country": "Spain",
+    "Currency_Code": "eur",
+    "Country_Code": "ES"
+  },
+  {
+    "Country": "China",
+    "Currency_Code": "cny",
+    "Country_Code": "CN"
+  },
+  {
+    "Country": "Russia",
+    "Currency_Code": "rub",
+    "Country_Code": "RU"
+  },
+  {
+    "Country": "Brazil",
+    "Currency_Code": "brl",
+    "Country_Code": "BR"
+  },
+  {
+    "Country": "South Africa",
+    "Currency_Code": "zar",
+    "Country_Code": "ZA"
+  },
+  {
+    "Country": "Mexico",
+    "Currency_Code": "mxn",
+    "Country_Code": "MX"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Currency_Code": "sar",
+    "Country_Code": "SA"
+  },
+  {
+    "Country": "Singapore",
+    "Currency_Code": "sgd",
+    "Country_Code": "SG"
+  },
+  {
+    "Country": "Switzerland",
+    "Currency_Code": "chf",
+    "Country_Code": "CH"
+  },
+  {
+    "Country": "South Korea",
+    "Currency_Code": "krw",
+    "Country_Code": "KR"
+  }
+]
