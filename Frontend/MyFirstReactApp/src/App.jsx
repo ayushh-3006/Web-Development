@@ -2,22 +2,46 @@
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import About from "./pages/About";
+import ContactUs from "./pages/ContactUs";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Products from "./pages/Products";
+import Register from "./pages/Register";
+
+import { BrowserRouter , Routes , Route } from "react-router-dom";
+
+
 
 function App() {
   return (
     <>
-      <Header />
-      <div id="ayush">My first react app </div>
 
-      <p className="bg-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsa
-        minus excepturi, saepe, nemo optio nam nihil et praesentium, ullam
-        pariatur quidem culpa laborum amet quod natus totam iure ipsum.
-      </p>
+    <BrowserRouter>
+    
+    <Header />
 
-      <button className="bg-success">click here</button>
 
-      <Footer />
+    <Routes >
+      <Route path="/" element={<Home />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Products" element={<Products />} />
+      <Route path="/ContactUs" element={<ContactUs />} />
+      <Route path="/Login" element={<Login />} />
+      <Route path="/Register" element={<Register />} />
+    </Routes>
+      
+
+    </BrowserRouter>
+
+    
+      {/* <Header />
+      <About />
+      <ContactUs />
+      <Home />
+      <Login />
+      <Products/>
+      <Register /> */}
     </>
   );
 }

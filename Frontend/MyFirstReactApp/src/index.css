@@ -1,12 +1,8 @@
-#ayush{
-  background-color: aqua;
+#ayush1{
+  cursor: pointer;
+  
 }
 
-#header{
-background-color: rgb(53, 150, 83);
-color: azure;
-}
-
-#footer{
-  background-color: rgb(28, 110, 152);
+.container{
+  height: 500px;
 }
