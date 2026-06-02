@@ -8,33 +8,28 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Products from "./pages/Products";
 import Register from "./pages/Register";
+import Courses from "./pages/courses";
 
-import { BrowserRouter , Routes , Route } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <>
+      <BrowserRouter>
+        <Header />
 
-    <BrowserRouter>
-    
-    <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Products" element={<Products />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/Courses" element={<Courses />} />
+        </Routes>
+      </BrowserRouter>
 
-
-    <Routes >
-      <Route path="/" element={<Home />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Products" element={<Products />} />
-      <Route path="/ContactUs" element={<ContactUs />} />
-      <Route path="/Login" element={<Login />} />
-      <Route path="/Register" element={<Register />} />
-    </Routes>
-      
-
-    </BrowserRouter>
-
-    
       {/* <Header />
       <About />
       <ContactUs />

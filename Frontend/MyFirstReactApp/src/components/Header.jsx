@@ -12,6 +12,7 @@ function Header() {
             <Link to={"/About"}>About</Link>
             <Link to={"/Products"}>Products</Link>
             <Link to={"/ContactUs"}>ContactUs</Link>
+             <Link to={"/Courses"}>Courses</Link>
 
 
 
