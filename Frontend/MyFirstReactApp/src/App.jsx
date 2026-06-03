@@ -1,5 +1,7 @@
 //  import React from "react";        // it will work if we remove this line
 
+import { FaWifi } from "react-icons/fa";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./pages/About";
