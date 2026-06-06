@@ -3,6 +3,14 @@
   
 }
 
+a{
+  text-decoration: none !important;
+}
+
+#logindiv{
+  background-color: rgb(88, 219, 108);
+}
+
 .container{
   height: 500px;
 }
