@@ -1,0 +1,80 @@
+:root {
+  --color-primary: #c2410c;
+  --color-primary-content: #ffffff;
+  --color-secondary: #6b7280;
+  --color-neutral: #3f3f46;
+  --color-neutral-content: #f4f4f5;
+  --color-base-100: #fff8f1;
+  --color-base-200: #f5ede5;
+  --color-base-300: #e7d9c9;
+  --color-base-content: #2d1b10;
+  --color-error: #ef4444;
+  --color-success: #22c55e;
+  --color-pink: #D9468f;
+  --color-lightdark: #18160d;
+}
+
+#navbar {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 65px;
+  background-color: var(--color-primary);
+  padding: 4px 48px;
+}
+.button {
+  padding: 6px 14px;
+  background-color: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: var(--color-primary-content);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  color: var(--color-primary-content);
+  border: 1px solid var(--color-neutral-content);
+}
+.hero-bg-wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.form-card-container {
+  max-width: 450px;
+  width: 100%;
+}
+
+.brand-color-text {
+  color: #c04414;
+}
+
+.brand-color-link {
+  color: #c04414;
+  text-decoration: none;
+}
+
+.brand-color-link:hover {
+  text-decoration: underline;
+}
+
+.brand-submit-btn {
+  background-color: #c04414 !important;
+  color: #ffffff !important; 
+  border: none !important;
+}
+
+.brand-submit-btn:hover {
+  background-color: #a3360f !important;
+  color: #ffffff !important; 
+}
+
+.logo-img {
+  width: 86px;
+  height: 55px;
+}
+ 
+/* @import "tailwindcss"; */
