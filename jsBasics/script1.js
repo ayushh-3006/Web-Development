@@ -215,13 +215,3 @@ for(let i=1; i<101; i++){
     if(count1===5)
         break;
 }
-
-const cars = ["BMW", "Volvo", "Saab", "Ford"];
-let len = cars.length;
-
-let i1 = 2;
-
-let text = "";
-for (; i1 < len; i1++) {
-  text += cars[i1] + "<br>";
-}
