@@ -1,8 +1,7 @@
 import dotenv from "dotenv";
-
 dotenv.config();
-import express from "express";
 
+import express from "express";
 import AuthRouter from "./src/routers/auth.route.js";
 import PublicRouter from "./src/routers/public.route.js";
 import connectDB from "./src/config/dbConnection.config.js";
@@ -14,39 +13,25 @@ app.use(express.json());
 app.use("/auth", AuthRouter);
 app.use("/public", PublicRouter);
 
+//Default API
 app.get("/", (req, res) => {
-  console.log("Default Get ApI Hit");
-  res.json({ message: "welcome to my first backend project" });
+  console.log("Default Get API Hit");
+  res.json({ message: "Welcome to my first backend Project" });
+  connectDB();
 });
 
-// app.post("/login", (req, res) => {
-//   res.json({ message: "login successful" });
-// });
+//Default Error Handler
 
-// app.get("/login", (req, res) => {
-//   // console.log("default login");
-//   res.json({ message: "welcome to my second backend project" });
-// });
-// app.post("/logout", (req, res) => {
-//   // console.log("default login");
-//   res.json({ message: "logout successfull" });
-// });
-// app.put("/register", (req, res) => {
-//   // console.log("default login");
-//   res.json({ message: "register successfull" });
-// });
-// app.update("/update", (req, res) => {
-//   // console.log("default login");
-//   res.json({ message: "update successfull" });
-// });
-// app.delete("/delete", (req, res) => {
-//   // console.log("default login");
-//   res.json({ message: "delete successfull" });
-// });
+app.use((err, req, res, next) => {
+  const ErrMessage = err.message || "Internal Server Error";
+  const ErrStausCode = err.statusCode || 500;
+
+  res.status(ErrStausCode).json({ message: ErrMessage });
+});
 
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
-  console.log("server started on port", port);
+  console.log("Server Started on port:", port);
   connectDB();
 });
